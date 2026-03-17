@@ -37,4 +37,4 @@
 <factor> ::= ident
          | num
          | boollit
-         | LP <expression> RP
+         | LP <expression> RPls
