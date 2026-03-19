@@ -72,11 +72,17 @@ const char* token_names[] = {
   "TOKEN_COMMENT"
 };
 
-token_t scan_token(FILE *fp){
+token_t scan_token(FILE *fp, int *lineNumber){
   	int current_char = fgetc(fp);
-
+    
     
 
+
+
+}
+
+int main(int argc, char *argv[]){
+  int lineNum = 0;
 
 
 }
