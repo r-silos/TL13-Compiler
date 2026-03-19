@@ -71,3 +71,12 @@ const char* token_names[] = {
   "TOKEN_READ_INT",
   "TOKEN_COMMENT"
 };
+
+token_t scan_token(FILE *fp){
+  	int current_char = fgetc(fp);
+
+    
+
+
+
+}
